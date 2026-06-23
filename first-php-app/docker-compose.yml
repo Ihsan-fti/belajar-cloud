@@ -22,7 +22,7 @@ services:
       - "33066:3306"
 
   pma:
-    image: phpmyadmin:lates
+    image: phpmyadmin:latest
     container_name: phpmyadmin_ui
     ports:
       - "8081:80"
